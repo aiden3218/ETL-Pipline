@@ -1,0 +1,17 @@
+id,First,Last,email,phone number,City,Age,active
+1,John,Smith,JohnSmith@example.com,1234567890,Vancouver,29,True
+2,Mary,Smith,MarySmith@example.com,1234567890,Vancouver,29,True
+3,Jane,Smith,JaneSmith@example.com,1234567890,Vancouver,30,True
+4,Jerry,Smith,JerrySmith@example.com,1234567890,Vancouver,45,True
+5,Dana,Smith,DanaSmith@example.com,1234567890,Vancouver,66,True
+6,Steven,Smith,StevenSmith@example.com,1234567890,Vancouver,25,True
+7,Noah,Johnson,NoahJohnson@example.com,1234567890,Winnepeg,45,True
+8,Liam,Brown,LiamBrown@example.com,1234567890,St johns,66,True
+9,Theodore,Jones,TheodoreJones@example.com,1234567890,Calgary,400,True
+10,Leo,Gracia,LeoGarcia@example.com,1234567890,Edmonton,33,True
+11,William,Miller,WilliamMiller@example.com,1234567890,Toronto,39,True
+12,Oliver,Davis,OliverDavis@example.com,1234567890,Ottawa,48,True
+13,Lucas,Rodrigues,LucasRodrigues@example.com,1234567890,Montreal,27,True
+14,James,Martinez,JamesMartinez@example.com,1234567890,Regina,59,True
+15,Benjamin,Ali,BenjaminAli@example.com,1234567890,Quebec City,36,True
+16,Thomas,Muhammed,ThomasMuhammed@example.com,1234567890,Halifax,40,True

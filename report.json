@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "dataset": "merged_users",
+    "rows_outputted": 26,
+    "number_of_inactive_rows": 1,
+    "generated_at": "2026-01-12 20:08:35.635662"
+  },
+  "summary": {
+    "invalid_email_count": 0
+  },
+  "column_statistics": {
+    "first": {
+      "type": "string",
+      "amount_missing": 0.0
+    },
+    "last": {
+      "type": "string",
+      "amount_missing": 0.0
+    },
+    "email": {
+      "type": "string",
+      "null_count": 0,
+      "invalid_format": 0,
+      "amount_missing": 0.0
+    },
+    "phone_number": {
+      "type": "string",
+      "amount_missing": 0.0
+    },
+    "city": {
+      "type": "string",
+      "amount_missing": 0.0
+    },
+    "age": {
+      "type": "int64",
+      "null_count": 0,
+      "min": 25.0,
+      "max": 400.0,
+      "amount_missing": 0.0
+    },
+    "active": {
+      "type": "bool",
+      "amount_missing": 0.0
+    }
+  }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "First": "John",
+    "Last": "Smith",
+    "email": "JohnSmith@example1.com",
+    "Phone number": "1234567890",
+    "age": 29,
+    "city": "Vancouver",
+    "active": "True"
+  },
+  {
+    "id": 2,
+    "First": "Mary",
+    "Last": "Smith",
+    "email": "MarySmith@example1.com",
+    "Phone number": "1234567890",
+    "age": 29,
+    "city": "Vancouver",
+    "active": "True"
+  },
+  {
+    "id": 17,
+    "First": "Sadie",
+    "Last": "Baker",
+    "email": "SadieBaker@example1.com",
+    "Phone number": "1234567890",
+    "age": 43,
+    "city": "Charlottetown",
+    "active": "True"
+  },
+  {
+    "id": 18,
+    "First": "Olivia",
+    "Last": "Fisher",
+    "email": "OlviaFisher@example1.com",
+    "Phone number": "1234567890",
+    "age": 27,
+    "city": "Victoria",
+    "active": "True"
+  },
+  {
+    "id": 19,
+    "First": "Charlotte",
+    "Last": "Hill",
+    "email": "CharlotteHill@example1.com",
+    "Phone number": "1234567890",
+    "age": 61,
+    "city": "Prince Rupert",
+    "active": "True"
+  },
+  {
+    "id": 20,
+    "First": "Emma",
+    "Last": "Woods",
+    "email": "EmmaWoods@example1.com",
+    "Phone number": "1234567890",
+    "age": 36,
+    "city": "Saskatoon",
+    "active": "True"
+  },
+  {
+    "id": 21,
+    "First": "Amelia",
+    "Last": "Tran",
+    "email": "AmeliaTran@example1.com",
+    "Phone number": "1234567890",
+    "age": 31,
+    "city": "Quebec City",
+    "active": "True"
+  },
+  {
+    "id": 22,
+    "First": "Sophia",
+    "Last": "Wallace",
+    "email": "SophiaWallace@example1.com",
+    "Phone number": "1234567890",
+    "age": 49,
+    "city": "Charlottetown",
+    "active": "True"
+  },
+  {
+    "id": 23,
+    "First": "Olivia",
+    "Last": "Tremblay",
+    "email": "OliviaTremblay@example1.com",
+    "Phone number": "1234567890",
+    "age": 59,
+    "city": "Whitehorse",
+    "active": "True"
+  },
+  {
+    "id": 24,
+    "First": "Mia",
+    "Last": "Roy",
+    "email": "MiaRoy@example1.com",
+    "Phone number": "1234567890",
+    "age": 25,
+    "city": "Yellowknife",
+    "active": "True"
+  },
+  {
+    "id": 25,
+    "First": "Chloe",
+    "Last": "Lee",
+    "email": "ChloeLee@example1.com",
+    "Phone number": "1234567890",
+    "age": 39,
+    "city": "Niagara Falls",
+    "active": "True"
+  },
+  {
+    "id": 26,
+    "First": "Lily",
+    "Last": "Campbell",
+    "email": "LilyCampbell@example1.com",
+    "Phone number": "1234567890",
+    "age": 32,
+    "city": "Edmonton",
+    "active": "True"
+  }
+  
+]

@@ -1,0 +1,39 @@
+{
+    "schema": {
+        "id": {
+        "type": "int",
+        "required": true,
+        "min": 0
+        },
+        "first": {
+        "type": "string",
+        "required": true
+        },
+        "last": {
+        "type": "string",
+        "required": true
+        },
+        "email": {
+        "type": "string",
+        "required": true,
+        "format": "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$"
+        },
+        "phone_number": {
+        "type": "string",
+        "required": false
+        },
+        "city": {
+        "type": "string",
+        "required": true
+        },
+        "age": {
+        "type": "int",
+        "required": true,
+        "min": 0,
+        "max": 120
+        },
+        "active": {
+        "type": "bool"
+        }
+    }
+}
