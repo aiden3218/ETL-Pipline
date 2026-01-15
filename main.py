@@ -1,5 +1,4 @@
 import pandas as pd
-import re
 import json
 from datetime import datetime
 
@@ -7,12 +6,12 @@ from datetime import datetime
 
 def main():
     #reading requirments from .json file
-    expected_layout = load_schema("schema_requirements.json")
-
-    #opening all files in pandas
+    expected_layout = load_schema("requirements.json")
     
+
     csv_df = pd.read_csv("data.csv")
     json_df = pd.read_json("data.json")
+
 
     #cleaning data columns; need phone number as string and not int
     csv_df.columns = csv_df.columns.str.strip().str.lower().str.replace(" ", "_")
@@ -107,12 +106,21 @@ def main():
         }
 
     }
+    merged_df.to_json("output.json",orient="records",indent=2)
 
     with open("report.json", "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
 
 
-
 def load_schema(requirements):
     with open(requirements, "r") as f:
         return json.load(f)
+    
+def cleaning(data):
+    data.columns = data.columns.str.strip().str.lower().str.replace(" ", "_")
+    data["phone_number"] = data["phone_number"].astype(str)
+    return data
+
+
+if __name__ == "__main__":
+    main()
